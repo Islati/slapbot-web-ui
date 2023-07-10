@@ -1,0 +1,30 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@kevinmarrec/nuxt-pwa": "^0.13.0",
+		"@nuxtjs/google-fonts": "^3.0.0-1",
+		"@types/jquery": "^3.5.16",
+		"nuxt": "3.0.0",
+		"nuxt-icon": "^0.1.8",
+		"sass": "^1.56.1",
+		"vuetify": "^3.0.3"
+	},
+	"dependencies": {
+		"@pinia/nuxt": "^0.4.7",
+		"jquery": "^3.6.4",
+		"pinia": "^2.0.33",
+		"vite-plugin-vuetify": "^1.0.0",
+		"vue-sound": "^0.1.10"
+	},
+	"overrides": {
+		"vue": "latest"
+	}
+}
