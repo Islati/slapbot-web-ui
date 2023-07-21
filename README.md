@@ -1,15 +1,10 @@
 # 🤖 Slapbot Dashboard
 
 ![Starter Image](/public/dashboard.png)
-Created to give a responsive interface to all the [bots]() that I've created (.
-This is a work in progress and will be updated as I continue to build out the bots.
+Created to give a responsive interface to all the bots that I've created
 
 Each user will have a single profile linking their entire social media presence together.
 ### Run the app
-
-1. Have the python backend running `python ../cli.py backend` _(from the root directory of this social-bots-collection)_
-2. Install the deps ```npm install```
-3. Run the frontend ```npm run dev```
 
 ### Stuff used
 
