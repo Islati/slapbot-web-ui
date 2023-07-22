@@ -168,8 +168,6 @@ const performUserRequest = () => {
 }
 
 const createProfile = () => {
-  const toast = useToast();
-  toast.info(`Creating profile for ${newProfileUrl.value}`);
   store.createProfile(newProfileUrl.value);
 }
 
